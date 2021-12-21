@@ -37,5 +37,33 @@ namespace ClinicMS
             NouveauPatient p = new NouveauPatient();
             p.Show();
         }
+
+        private void Reglerrdvbtn_Click(object sender, EventArgs e)
+        {
+            reglerRDV1.Visible= true;
+        }
+
+        private void GestionPatients_Load(object sender, EventArgs e)
+        {
+            reglerRDV1.Visible = false;
+           
+            listed_antecedents1.Visible = false;
+        }
+
+        private void bunifuButton3_Click(object sender, EventArgs e)
+        {
+            reglerRDV1.Visible = true;
+            
+            listed_antecedents1.Visible = false;
+        }
+
+        private void Antécedentsbtn_Click(object sender, EventArgs e)
+        {
+           
+            reglerRDV1.Visible = false;
+            listed_antecedents1.Visible = true;
+        }
+
+       
     }
 }

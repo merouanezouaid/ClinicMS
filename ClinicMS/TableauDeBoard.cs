@@ -20,5 +20,22 @@ namespace ClinicMS
         private void userlbl_Click(object sender, EventArgs e)
         {
         }
+
+        private void TableauDeBoard_Load(object sender, EventArgs e)
+        {
+            gestionPatients1.Visible = false;
+        }
+
+        private void patientbtn_Click(object sender, EventArgs e)
+        {
+            gestionPatients1.Visible = true;
+        }
+
+        private void consultationbtn_Click(object sender, EventArgs e)
+        {
+            gestionPatients1.Visible=false;
+            consultation cst = new consultation();
+            cst.Show();
+        }
     }
 }

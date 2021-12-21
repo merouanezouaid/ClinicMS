@@ -33,33 +33,80 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Bunifu.Core, Version=1.11.5.1, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9" />
+    <Reference Include="Bunifu.Core, Version=1.11.5.1, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9">
+      <HintPath>..\..\..\Bunifu_UI_WinForms_1.11.5.1\Bunifu_UI_WinForms_1.11.5.1\Bunifu.Core.dll</HintPath>
+    </Reference>
     <Reference Include="Bunifu.UI.WinForm.BunifuShadowPanel">
-      <HintPath>..\..\..\..\Downloads\Bunifu_UI_WinForms_1.11.5.1\Bunifu_UI_WinForms_1.11.5.1\Bunifu.UI.WinForm.BunifuShadowPanel.dll</HintPath>
+      <HintPath>..\..\..\Bunifu_UI_WinForms_1.11.5.1\Bunifu_UI_WinForms_1.11.5.1\Bunifu.UI.WinForm.BunifuShadowPanel.dll</HintPath>
     </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuButton">
-      <HintPath>..\..\..\..\Downloads\Bunifu_UI_WinForms_1.11.5.1\Bunifu_UI_WinForms_1.11.5.1\Bunifu.UI.WinForms.BunifuButton.dll</HintPath>
+      <HintPath>..\..\..\Bunifu_UI_WinForms_1.11.5.1\Bunifu_UI_WinForms_1.11.5.1\Bunifu.UI.WinForms.BunifuButton.dll</HintPath>
     </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuCheckBox">
-      <HintPath>..\..\..\..\Downloads\Bunifu_UI_WinForms_1.11.5.1\Bunifu_UI_WinForms_1.11.5.1\Bunifu.UI.WinForms.BunifuCheckBox.dll</HintPath>
+      <HintPath>..\..\..\Bunifu_UI_WinForms_1.11.5.1\Bunifu_UI_WinForms_1.11.5.1\Bunifu.UI.WinForms.BunifuCheckBox.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuCircleProgress">
+      <HintPath>..\..\..\Bunifu_UI_WinForms_1.11.5.1\Bunifu_UI_WinForms_1.11.5.1\Bunifu.UI.WinForms.BunifuCircleProgress.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuColorTransition">
+      <HintPath>..\..\..\Bunifu_UI_WinForms_1.11.5.1\Bunifu_UI_WinForms_1.11.5.1\Bunifu.UI.WinForms.BunifuColorTransition.dll</HintPath>
     </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuDataGridView">
-      <HintPath>..\..\..\..\Downloads\Bunifu_UI_WinForms_1.11.5.1\Bunifu_UI_WinForms_1.11.5.1\Bunifu.UI.WinForms.BunifuDataGridView.dll</HintPath>
+      <HintPath>..\..\..\Bunifu_UI_WinForms_1.11.5.1\Bunifu_UI_WinForms_1.11.5.1\Bunifu.UI.WinForms.BunifuDataGridView.dll</HintPath>
     </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuDatePicker">
-      <HintPath>..\..\..\..\Downloads\Bunifu_UI_WinForms_1.11.5.1\Bunifu_UI_WinForms_1.11.5.1\Bunifu.UI.WinForms.BunifuDatePicker.dll</HintPath>
+      <HintPath>..\..\..\Bunifu_UI_WinForms_1.11.5.1\Bunifu_UI_WinForms_1.11.5.1\Bunifu.UI.WinForms.BunifuDatePicker.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuDropdown">
+      <HintPath>..\..\..\Bunifu_UI_WinForms_1.11.5.1\Bunifu_UI_WinForms_1.11.5.1\Bunifu.UI.WinForms.BunifuDropdown.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuFormDock">
+      <HintPath>..\..\..\Bunifu_UI_WinForms_1.11.5.1\Bunifu_UI_WinForms_1.11.5.1\Bunifu.UI.WinForms.BunifuFormDock.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuGauge">
+      <HintPath>..\..\..\Bunifu_UI_WinForms_1.11.5.1\Bunifu_UI_WinForms_1.11.5.1\Bunifu.UI.WinForms.BunifuGauge.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuImageButton">
+      <HintPath>..\..\..\Bunifu_UI_WinForms_1.11.5.1\Bunifu_UI_WinForms_1.11.5.1\Bunifu.UI.WinForms.BunifuImageButton.dll</HintPath>
     </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuLabel">
-      <HintPath>..\..\..\..\Downloads\Bunifu_UI_WinForms_1.11.5.1\Bunifu_UI_WinForms_1.11.5.1\Bunifu.UI.WinForms.BunifuLabel.dll</HintPath>
+      <HintPath>..\..\..\Bunifu_UI_WinForms_1.11.5.1\Bunifu_UI_WinForms_1.11.5.1\Bunifu.UI.WinForms.BunifuLabel.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuPages">
+      <HintPath>..\..\..\Bunifu_UI_WinForms_1.11.5.1\Bunifu_UI_WinForms_1.11.5.1\Bunifu.UI.WinForms.BunifuPages.dll</HintPath>
     </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuPictureBox">
-      <HintPath>..\..\..\..\Downloads\Bunifu_UI_WinForms_1.11.5.1\Bunifu_UI_WinForms_1.11.5.1\Bunifu.UI.WinForms.BunifuPictureBox.dll</HintPath>
+      <HintPath>..\..\..\Bunifu_UI_WinForms_1.11.5.1\Bunifu_UI_WinForms_1.11.5.1\Bunifu.UI.WinForms.BunifuPictureBox.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuProgressBar">
+      <HintPath>..\..\..\Bunifu_UI_WinForms_1.11.5.1\Bunifu_UI_WinForms_1.11.5.1\Bunifu.UI.WinForms.BunifuProgressBar.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuRadioButton">
+      <HintPath>..\..\..\Bunifu_UI_WinForms_1.11.5.1\Bunifu_UI_WinForms_1.11.5.1\Bunifu.UI.WinForms.BunifuRadioButton.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuScrollBar">
+      <HintPath>..\..\..\Bunifu_UI_WinForms_1.11.5.1\Bunifu_UI_WinForms_1.11.5.1\Bunifu.UI.WinForms.BunifuScrollBar.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuSlider">
+      <HintPath>..\..\..\Bunifu_UI_WinForms_1.11.5.1\Bunifu_UI_WinForms_1.11.5.1\Bunifu.UI.WinForms.BunifuSlider.dll</HintPath>
     </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuTextbox">
-      <HintPath>..\..\..\..\Downloads\Bunifu_UI_WinForms_1.11.5.1\Bunifu_UI_WinForms_1.11.5.1\Bunifu.UI.WinForms.BunifuTextbox.dll</HintPath>
+      <HintPath>..\..\..\Bunifu_UI_WinForms_1.11.5.1\Bunifu_UI_WinForms_1.11.5.1\Bunifu.UI.WinForms.BunifuTextbox.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuToolTip">
+      <HintPath>..\..\..\Bunifu_UI_WinForms_1.11.5.1\Bunifu_UI_WinForms_1.11.5.1\Bunifu.UI.WinForms.BunifuToolTip.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuTransition">
+      <HintPath>..\..\..\Bunifu_UI_WinForms_1.11.5.1\Bunifu_UI_WinForms_1.11.5.1\Bunifu.UI.WinForms.BunifuTransition.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuUserControl">
+      <HintPath>..\..\..\Bunifu_UI_WinForms_1.11.5.1\Bunifu_UI_WinForms_1.11.5.1\Bunifu.UI.WinForms.BunifuUserControl.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.ToggleSwitch">
+      <HintPath>..\..\..\Bunifu_UI_WinForms_1.11.5.1\Bunifu_UI_WinForms_1.11.5.1\Bunifu.UI.WinForms.ToggleSwitch.dll</HintPath>
     </Reference>
     <Reference Include="Bunifu_UI_v1.5.3">
-      <HintPath>..\..\..\..\Downloads\Bunifu_UI_WinForms_1.11.5.1\Bunifu_UI_WinForms_1.11.5.1\Bunifu_UI_v1.5.3.dll</HintPath>
+      <HintPath>..\..\..\Bunifu_UI_WinForms_1.11.5.1\Bunifu_UI_WinForms_1.11.5.1\Bunifu_UI_v1.5.3.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -77,11 +124,35 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="addantecedent.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="addantecedent.Designer.cs">
+      <DependentUpon>addantecedent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="consultation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="consultation.Designer.cs">
+      <DependentUpon>consultation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Facture.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Facture.Designer.cs">
+      <DependentUpon>Facture.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GérerLesRendezvous.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GérerLesRendezvous.Designer.cs">
+      <DependentUpon>GérerLesRendezvous.cs</DependentUpon>
     </Compile>
     <Compile Include="GestionPatients.cs">
       <SubType>UserControl</SubType>
@@ -89,28 +160,85 @@
     <Compile Include="GestionPatients.Designer.cs">
       <DependentUpon>GestionPatients.cs</DependentUpon>
     </Compile>
+    <Compile Include="listed%27antecedents.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="listed%27antecedents.Designer.cs">
+      <DependentUpon>listed%27antecedents.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Medicament.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Medicament.Designer.cs">
+      <DependentUpon>Medicament.cs</DependentUpon>
+    </Compile>
     <Compile Include="NouveauPatient.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="NouveauPatient.Designer.cs">
       <DependentUpon>NouveauPatient.cs</DependentUpon>
     </Compile>
+    <Compile Include="ordonance.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ordonance.Designer.cs">
+      <DependentUpon>ordonance.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReglerRDV.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ReglerRDV.Designer.cs">
+      <DependentUpon>ReglerRDV.cs</DependentUpon>
+    </Compile>
     <Compile Include="TableauDeBoard.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="TableauDeBoard.Designer.cs">
       <DependentUpon>TableauDeBoard.cs</DependentUpon>
     </Compile>
+    <Compile Include="Traiterlecas.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Traiterlecas.Designer.cs">
+      <DependentUpon>Traiterlecas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Visite.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Visite.Designer.cs">
+      <DependentUpon>Visite.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="addantecedent.resx">
+      <DependentUpon>addantecedent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="consultation.resx">
+      <DependentUpon>consultation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Facture.resx">
+      <DependentUpon>Facture.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GestionPatients.resx">
       <DependentUpon>GestionPatients.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="GérerLesRendezvous.resx">
+      <DependentUpon>GérerLesRendezvous.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="listed%27antecedents.resx">
+      <DependentUpon>listed%27antecedents.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Medicament.resx">
+      <DependentUpon>Medicament.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="NouveauPatient.resx">
       <DependentUpon>NouveauPatient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ordonance.resx">
+      <DependentUpon>ordonance.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -121,8 +249,17 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="ReglerRDV.resx">
+      <DependentUpon>ReglerRDV.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="TableauDeBoard.resx">
       <DependentUpon>TableauDeBoard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Traiterlecas.resx">
+      <DependentUpon>Traiterlecas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Visite.resx">
+      <DependentUpon>Visite.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
