@@ -12,11 +12,13 @@ namespace ClinicMS
 {
     public partial class Visite : UserControl
     {
+      
         public Visite()
         {
             InitializeComponent();
+            
         }
-
+       
         private void bunifuButton2_Click(object sender, EventArgs e)
         {
             this.Hide();
@@ -25,19 +27,44 @@ namespace ClinicMS
         private void RedegerOrdanancebtn_Click(object sender, EventArgs e)
         {
             makeordonance1.Visible = true;
-            facture1.Visible = false;
+          
         }
-
+         
         private void Visite_Load(object sender, EventArgs e)
         {
+            consultation C = new consultation();
+            idtxt.Text = C.share.ToString();
             makeordonance1.Visible = false;
-            facture1.Visible = false;
+        
         }
 
         private void validerlavisitebtn_Click(object sender, EventArgs e)
         {
-            facture1.Visible = true;
+            Operations o = new Operations();
+         ;
             makeordonance1.Visible = false;
+            if(o.validervisite(int.Parse(idtxt.Text), textBox3.Text, textBox4.Text, textBox5.Text, textBox6.Text, int.Parse(textBox7.Text), PayercomboBox.SelectedItem.ToString())==true)
+            {
+                MessageBox.Show("Visite bien Valider ");
+                idtxt.Clear();
+                textBox3.Clear();
+                textBox4.Clear();
+                textBox5.Clear();
+                textBox6.Clear();
+                textBox7.Clear();
+               
+            }
+            else
+            {
+                MessageBox.Show("verifier les donnees!!");
+            }
+            
+        }
+
+        private void makeordonance1_Load(object sender, EventArgs e)
+        {
+            Operations o = new Operations();
+            o.DisplayMedicament();
         }
     }
 }

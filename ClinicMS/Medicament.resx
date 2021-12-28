@@ -124,7 +124,7 @@
     <value>#bunifu-label { padding: 1.2px; font-family: 'Microsoft Sans Serif'; font-size: 14.25pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: ; text-align: left; }</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="bunifuTextBox1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="searchmedicines.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAS8AAAAjCAYAAADFa4wXAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
         YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACvSURBVHhe7dRBCQQxAATB+FeVEBkn4wTcEsjnHGxDFcxn
@@ -133,14 +133,14 @@
         JF5A0l+81lrfc5iZvX2nVzddADVjPLIOtzVN7RiLAAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="Choisirmedicamentbtn.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="Retourmedicamentbtn.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAAL8AAAAjCAYAAADFTts+AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADsSURBVHhe7dwhTgNBAIXhOUo9J8ChkIhKNLfA4nFcAo1t
-        kCg0qhcgGWgCDaVi2N2MIekJ5n0v+TJm5L8jt5hFr7W2+vzdPU6n2dCrh4+n6Vj19Euph7q53z60s+dz
-        GNrt212bHvptT395+U9ehBHN6+mLnyziJ5b4iSV+YomfWOInlviJJX5iiZ9Y4ieW+IklfmKJn1jiJ5b4
-        iSV+YomfWOInlviJJX5iiZ9Y4ieW+IklfmKJn1jiJ5b4iSV+Yv2Lf/5r7fXrzcmLMJLLl3XbH/e7nv7y
-        8l98Hb/fl0/CbODN4defetXTN0tcKX8PeDt9u20YRAAAAABJRU5ErkJggg==
+        iVBORw0KGgoAAAANSUhEUgAAAJAAAAAjCAYAAAB7GINjAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADlSURBVHhe7dwhTgNBAIXhOUo9J8ChkIhKNLfA4nFcAo1t
+        kCg0qhcgGWgCDaVi2N2MgZRs4NnvJV/GjPwzcopZvNba4vVzczucZrOru5e74Vj0fEqpu7q6Xt+0o/tj
+        mHX5dNWGB2fd85leoIMX4Tfjej4C4u8ERERARAREREBEBEREQEQERERARAREREBEBEREQEQERERARARE
+        REBEBEREQEQERERARAREREBEBEREQEQERERARARE5FtA408L548XBy/CT6cPy7bdbzc9n+kFOnnbvz9P
+        WZnNbIynftSzno/Zf1fKF9pomvDuiivbAAAAAElFTkSuQmCC
 </value>
   </data>
   <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">

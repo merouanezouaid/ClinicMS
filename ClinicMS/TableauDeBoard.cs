@@ -37,5 +37,14 @@ namespace ClinicMS
             consultation cst = new consultation();
             cst.Show();
         }
+
+        private void bunifuButton2_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("Etes-vous sûr de vouloir quitter l'application?", "Quitter", MessageBoxButtons.OKCancel) == DialogResult.OK)
+            {
+                Application.Exit();
+
+            }
+        }
     }
 }
