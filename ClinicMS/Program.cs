@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static ClinicMS.Operations;
 
 namespace ClinicMS
 {
@@ -16,7 +17,7 @@ namespace ClinicMS
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new TableauDeBoard());
+            Application.Run(new LoginPage());
         }
     }
 }

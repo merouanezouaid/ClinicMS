@@ -38,7 +38,6 @@
             this.bunifuDatepicker1 = new Bunifu.Framework.UI.BunifuDatepicker();
             this.bunifuLabel4 = new Bunifu.UI.WinForms.BunifuLabel();
             this.bunifuLabel3 = new Bunifu.UI.WinForms.BunifuLabel();
-            this.textBox2 = new System.Windows.Forms.TextBox();
             this.bunifuLabel2 = new Bunifu.UI.WinForms.BunifuLabel();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.infoslabel = new Bunifu.UI.WinForms.BunifuLabel();
@@ -47,6 +46,7 @@
             this.bunifuPictureBox2 = new Bunifu.UI.WinForms.BunifuPictureBox();
             this.bunifuButton6 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.Annullerrdvbtn = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
+            this.textBox2 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuPictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
@@ -55,13 +55,13 @@
             this.bunifuDatepicker1.BackColor = System.Drawing.Color.SeaGreen;
             this.bunifuDatepicker1.BorderRadius = 0;
             this.bunifuDatepicker1.ForeColor = System.Drawing.Color.White;
-            this.bunifuDatepicker1.Format = System.Windows.Forms.DateTimePickerFormat.Long;
+            this.bunifuDatepicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.bunifuDatepicker1.FormatCustom = null;
-            this.bunifuDatepicker1.Location = new System.Drawing.Point(79, 109);
+            this.bunifuDatepicker1.Location = new System.Drawing.Point(79, 102);
             this.bunifuDatepicker1.Name = "bunifuDatepicker1";
-            this.bunifuDatepicker1.Size = new System.Drawing.Size(274, 25);
+            this.bunifuDatepicker1.Size = new System.Drawing.Size(259, 32);
             this.bunifuDatepicker1.TabIndex = 42;
-            this.bunifuDatepicker1.Value = new System.DateTime(2021, 12, 20, 13, 47, 6, 746);
+            this.bunifuDatepicker1.Value = new System.DateTime(2021, 12, 21, 0, 0, 0, 0);
             // 
             // bunifuLabel4
             // 
@@ -69,7 +69,7 @@
             this.bunifuLabel4.CursorType = null;
             this.bunifuLabel4.Font = new System.Drawing.Font("Segoe UI Symbol", 9F, System.Drawing.FontStyle.Bold);
             this.bunifuLabel4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(241)))), ((int)(((byte)(196)))), ((int)(((byte)(15)))));
-            this.bunifuLabel4.Location = new System.Drawing.Point(19, 112);
+            this.bunifuLabel4.Location = new System.Drawing.Point(16, 117);
             this.bunifuLabel4.Name = "bunifuLabel4";
             this.bunifuLabel4.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel4.Size = new System.Drawing.Size(39, 17);
@@ -84,7 +84,7 @@
             this.bunifuLabel3.CursorType = null;
             this.bunifuLabel3.Font = new System.Drawing.Font("Segoe UI Symbol", 9F, System.Drawing.FontStyle.Bold);
             this.bunifuLabel3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(241)))), ((int)(((byte)(196)))), ((int)(((byte)(15)))));
-            this.bunifuLabel3.Location = new System.Drawing.Point(16, 153);
+            this.bunifuLabel3.Location = new System.Drawing.Point(16, 150);
             this.bunifuLabel3.Name = "bunifuLabel3";
             this.bunifuLabel3.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel3.Size = new System.Drawing.Size(48, 17);
@@ -93,25 +93,18 @@
             this.bunifuLabel3.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
             this.bunifuLabel3.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
             // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(79, 147);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(230, 20);
-            this.textBox2.TabIndex = 39;
-            // 
             // bunifuLabel2
             // 
             this.bunifuLabel2.AutoEllipsis = false;
             this.bunifuLabel2.CursorType = null;
             this.bunifuLabel2.Font = new System.Drawing.Font("Segoe UI Symbol", 9F, System.Drawing.FontStyle.Bold);
             this.bunifuLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(241)))), ((int)(((byte)(196)))), ((int)(((byte)(15)))));
-            this.bunifuLabel2.Location = new System.Drawing.Point(16, 196);
+            this.bunifuLabel2.Location = new System.Drawing.Point(16, 190);
             this.bunifuLabel2.Name = "bunifuLabel2";
             this.bunifuLabel2.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel2.Size = new System.Drawing.Size(45, 17);
             this.bunifuLabel2.TabIndex = 38;
-            this.bunifuLabel2.Text = "motif :";
+            this.bunifuLabel2.Text = "Motif :";
             this.bunifuLabel2.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
             this.bunifuLabel2.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
             // 
@@ -128,7 +121,7 @@
             this.infoslabel.CursorType = null;
             this.infoslabel.Font = new System.Drawing.Font("Segoe UI Symbol", 9F, System.Drawing.FontStyle.Bold);
             this.infoslabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(241)))), ((int)(((byte)(196)))), ((int)(((byte)(15)))));
-            this.infoslabel.Location = new System.Drawing.Point(19, 72);
+            this.infoslabel.Location = new System.Drawing.Point(16, 72);
             this.infoslabel.Name = "infoslabel";
             this.infoslabel.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.infoslabel.Size = new System.Drawing.Size(55, 17);
@@ -148,14 +141,14 @@
             // 
             this.bunifuLabel1.AutoEllipsis = false;
             this.bunifuLabel1.CursorType = null;
-            this.bunifuLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(241)))), ((int)(((byte)(196)))));
-            this.bunifuLabel1.Location = new System.Drawing.Point(19, 18);
+            this.bunifuLabel1.Font = new System.Drawing.Font(".", 18F, System.Drawing.FontStyle.Bold);
+            this.bunifuLabel1.ForeColor = System.Drawing.Color.White;
+            this.bunifuLabel1.Location = new System.Drawing.Point(25, 16);
             this.bunifuLabel1.Name = "bunifuLabel1";
             this.bunifuLabel1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel1.Size = new System.Drawing.Size(276, 31);
+            this.bunifuLabel1.Size = new System.Drawing.Size(271, 32);
             this.bunifuLabel1.TabIndex = 43;
-            this.bunifuLabel1.Text = "Régler un  Rendez-vous";
+            this.bunifuLabel1.Text = "Régler un Rendez-vous";
             this.bunifuLabel1.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
             this.bunifuLabel1.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
             // 
@@ -163,17 +156,17 @@
             // 
             this.bunifuPictureBox2.AllowFocused = false;
             this.bunifuPictureBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.bunifuPictureBox2.BorderRadius = 50;
+            this.bunifuPictureBox2.BorderRadius = 0;
             this.bunifuPictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("bunifuPictureBox2.Image")));
-            this.bunifuPictureBox2.IsCircle = true;
-            this.bunifuPictureBox2.Location = new System.Drawing.Point(300, 0);
+            this.bunifuPictureBox2.IsCircle = false;
+            this.bunifuPictureBox2.Location = new System.Drawing.Point(322, -1);
             this.bunifuPictureBox2.Margin = new System.Windows.Forms.Padding(0);
             this.bunifuPictureBox2.Name = "bunifuPictureBox2";
-            this.bunifuPictureBox2.Size = new System.Drawing.Size(69, 69);
+            this.bunifuPictureBox2.Size = new System.Drawing.Size(53, 66);
             this.bunifuPictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.bunifuPictureBox2.TabIndex = 44;
             this.bunifuPictureBox2.TabStop = false;
-            this.bunifuPictureBox2.Type = Bunifu.UI.WinForms.BunifuPictureBox.Types.Square;
+            this.bunifuPictureBox2.Type = Bunifu.UI.WinForms.BunifuPictureBox.Types.Custom;
             // 
             // bunifuButton6
             // 
@@ -237,6 +230,7 @@
             this.bunifuButton6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bunifuButton6.TextMarginLeft = 0;
             this.bunifuButton6.UseDefaultRadiusAndThickness = true;
+            this.bunifuButton6.Click += new System.EventHandler(this.bunifuButton6_Click);
             // 
             // Annullerrdvbtn
             // 
@@ -263,7 +257,7 @@
             this.Annullerrdvbtn.DisabledForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
             this.Annullerrdvbtn.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed;
             this.Annullerrdvbtn.Font = new System.Drawing.Font("Trebuchet MS", 14.25F, System.Drawing.FontStyle.Bold);
-            this.Annullerrdvbtn.ForeColor = System.Drawing.Color.White;
+            this.Annullerrdvbtn.ForeColor = System.Drawing.Color.Black;
             this.Annullerrdvbtn.IconLeftCursor = System.Windows.Forms.Cursors.Hand;
             this.Annullerrdvbtn.IconMarginLeft = 11;
             this.Annullerrdvbtn.IconPadding = 10;
@@ -302,11 +296,19 @@
             this.Annullerrdvbtn.UseDefaultRadiusAndThickness = true;
             this.Annullerrdvbtn.Click += new System.EventHandler(this.Annullerrdvbtn_Click);
             // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(79, 147);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(230, 20);
+            this.textBox2.TabIndex = 39;
+            // 
             // ReglerRDV
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(241)))), ((int)(((byte)(15)))), ((int)(((byte)(60)))));
+            this.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Controls.Add(this.Annullerrdvbtn);
             this.Controls.Add(this.bunifuButton6);
             this.Controls.Add(this.bunifuPictureBox2);
@@ -320,7 +322,8 @@
             this.Controls.Add(this.infoslabel);
             this.Controls.Add(this.idtextbox);
             this.Name = "ReglerRDV";
-            this.Size = new System.Drawing.Size(375, 288);
+            this.Size = new System.Drawing.Size(395, 286);
+            this.Load += new System.EventHandler(this.ReglerRDV_Load);
             ((System.ComponentModel.ISupportInitialize)(this.bunifuPictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -332,7 +335,6 @@
         private Bunifu.Framework.UI.BunifuDatepicker bunifuDatepicker1;
         private Bunifu.UI.WinForms.BunifuLabel bunifuLabel4;
         private Bunifu.UI.WinForms.BunifuLabel bunifuLabel3;
-        private System.Windows.Forms.TextBox textBox2;
         private Bunifu.UI.WinForms.BunifuLabel bunifuLabel2;
         private System.Windows.Forms.TextBox textBox1;
         private Bunifu.UI.WinForms.BunifuLabel infoslabel;
@@ -341,5 +343,6 @@
         private Bunifu.UI.WinForms.BunifuPictureBox bunifuPictureBox2;
         private Bunifu.UI.WinForms.BunifuButton.BunifuButton bunifuButton6;
         private Bunifu.UI.WinForms.BunifuButton.BunifuButton Annullerrdvbtn;
+        private System.Windows.Forms.TextBox textBox2;
     }
 }

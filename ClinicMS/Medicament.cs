@@ -12,9 +12,12 @@ namespace ClinicMS
 {
     public partial class Medicament : UserControl
     {
+        Operations ope = new Operations();
+
         public Medicament()
         {
             InitializeComponent();
+            dataGridmedicament.DataSource = ope.GetMedicament();
         }
 
         private void Choisirmedicamentbtn_Click(object sender, EventArgs e)
