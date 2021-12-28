@@ -125,9 +125,9 @@
             this.infoslabel.Location = new System.Drawing.Point(28, 77);
             this.infoslabel.Name = "infoslabel";
             this.infoslabel.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.infoslabel.Size = new System.Drawing.Size(180, 23);
+            this.infoslabel.Size = new System.Drawing.Size(82, 23);
             this.infoslabel.TabIndex = 40;
-            this.infoslabel.Text = "Antecedent Familiaux  :";
+            this.infoslabel.Text = "Familiaux:";
             this.infoslabel.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
             this.infoslabel.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
             // 
@@ -138,6 +138,7 @@
             this.idtextbox.Name = "idtextbox";
             this.idtextbox.Size = new System.Drawing.Size(277, 52);
             this.idtextbox.TabIndex = 39;
+            this.idtextbox.TextChanged += new System.EventHandler(this.idtextbox_TextChanged);
             // 
             // bunifuLabel3
             // 
@@ -148,9 +149,9 @@
             this.bunifuLabel3.Location = new System.Drawing.Point(28, 156);
             this.bunifuLabel3.Name = "bunifuLabel3";
             this.bunifuLabel3.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel3.Size = new System.Drawing.Size(180, 23);
+            this.bunifuLabel3.Size = new System.Drawing.Size(81, 23);
             this.bunifuLabel3.TabIndex = 42;
-            this.bunifuLabel3.Text = "Antecedent Familiaux  :";
+            this.bunifuLabel3.Text = "Medicals :";
             this.bunifuLabel3.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
             this.bunifuLabel3.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
             // 
@@ -163,9 +164,9 @@
             this.bunifuLabel4.Location = new System.Drawing.Point(28, 233);
             this.bunifuLabel4.Name = "bunifuLabel4";
             this.bunifuLabel4.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel4.Size = new System.Drawing.Size(180, 23);
+            this.bunifuLabel4.Size = new System.Drawing.Size(102, 23);
             this.bunifuLabel4.TabIndex = 44;
-            this.bunifuLabel4.Text = "Antecedent Familiaux  :";
+            this.bunifuLabel4.Text = "Chirurgicals:";
             this.bunifuLabel4.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
             this.bunifuLabel4.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
             // 

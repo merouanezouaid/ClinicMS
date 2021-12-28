@@ -51,11 +51,13 @@ namespace ClinicMS
             this.passwordTextBox = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.bunifuButton2 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
-            this.showpwdlbl = new Bunifu.UI.WinForms.BunifuLabel();
-            this.showPassword = new Bunifu.UI.WinForms.BunifuCheckBox();
             this.titlelabel = new Bunifu.UI.WinForms.BunifuLabel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.showPassword = new Bunifu.UI.WinForms.BunifuCheckBox();
+            this.showpwdlbl = new Bunifu.UI.WinForms.BunifuLabel();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuPictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // bunifuPictureBox1
@@ -366,20 +368,30 @@ namespace ClinicMS
             this.bunifuButton2.UseDefaultRadiusAndThickness = true;
             this.bunifuButton2.Click += new System.EventHandler(this.bunifuButton2_Click);
             // 
-            // showpwdlbl
+            // titlelabel
             // 
-            this.showpwdlbl.AutoEllipsis = false;
-            this.showpwdlbl.CursorType = null;
-            this.showpwdlbl.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.showpwdlbl.ForeColor = System.Drawing.Color.White;
-            this.showpwdlbl.Location = new System.Drawing.Point(223, 282);
-            this.showpwdlbl.Name = "showpwdlbl";
-            this.showpwdlbl.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.showpwdlbl.Size = new System.Drawing.Size(130, 18);
-            this.showpwdlbl.TabIndex = 10;
-            this.showpwdlbl.Text = "Afficher le mot de passe";
-            this.showpwdlbl.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
-            this.showpwdlbl.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            this.titlelabel.AutoEllipsis = false;
+            this.titlelabel.CursorType = null;
+            this.titlelabel.Font = new System.Drawing.Font(".", 26.25F, System.Drawing.FontStyle.Bold);
+            this.titlelabel.ForeColor = System.Drawing.Color.White;
+            this.titlelabel.Location = new System.Drawing.Point(20, 24);
+            this.titlelabel.Name = "titlelabel";
+            this.titlelabel.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.titlelabel.Size = new System.Drawing.Size(272, 92);
+            this.titlelabel.TabIndex = 8;
+            this.titlelabel.Text = "Gestion du \r\nCabinet Medical";
+            this.titlelabel.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.titlelabel.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(401, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(404, 407);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabStop = false;
             // 
             // showPassword
             // 
@@ -435,26 +447,27 @@ namespace ClinicMS
             this.showPassword.ToolTipText = null;
             this.showPassword.CheckedChanged += new System.EventHandler<Bunifu.UI.WinForms.BunifuCheckBox.CheckedChangedEventArgs>(this.bunifuCheckBox1_CheckedChanged);
             // 
-            // titlelabel
+            // showpwdlbl
             // 
-            this.titlelabel.AutoEllipsis = false;
-            this.titlelabel.CursorType = null;
-            this.titlelabel.Font = new System.Drawing.Font(".", 26.25F, System.Drawing.FontStyle.Bold);
-            this.titlelabel.ForeColor = System.Drawing.Color.White;
-            this.titlelabel.Location = new System.Drawing.Point(20, 24);
-            this.titlelabel.Name = "titlelabel";
-            this.titlelabel.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.titlelabel.Size = new System.Drawing.Size(272, 92);
-            this.titlelabel.TabIndex = 8;
-            this.titlelabel.Text = "Gestion du \r\nCabinet Medical";
-            this.titlelabel.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
-            this.titlelabel.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            this.showpwdlbl.AutoEllipsis = false;
+            this.showpwdlbl.CursorType = null;
+            this.showpwdlbl.Font = new System.Drawing.Font("Segoe UI Emoji", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.showpwdlbl.ForeColor = System.Drawing.Color.White;
+            this.showpwdlbl.Location = new System.Drawing.Point(223, 282);
+            this.showpwdlbl.Name = "showpwdlbl";
+            this.showpwdlbl.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.showpwdlbl.Size = new System.Drawing.Size(130, 18);
+            this.showpwdlbl.TabIndex = 10;
+            this.showpwdlbl.Text = "Afficher le mot de passe";
+            this.showpwdlbl.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.showpwdlbl.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
             // 
             // LoginPage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 26F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(805, 407);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Noto Sans", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -464,6 +477,7 @@ namespace ClinicMS
             ((System.ComponentModel.ISupportInitialize)(this.bunifuPictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -475,10 +489,11 @@ namespace ClinicMS
         private Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox usernameTextbox;
         private Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox passwordTextBox;
         private System.Windows.Forms.Panel panel1;
-        private Bunifu.UI.WinForms.BunifuLabel showpwdlbl;
-        private Bunifu.UI.WinForms.BunifuCheckBox showPassword;
         private Bunifu.UI.WinForms.BunifuLabel titlelabel;
         private Bunifu.UI.WinForms.BunifuButton.BunifuButton bunifuButton2;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private Bunifu.UI.WinForms.BunifuLabel showpwdlbl;
+        private Bunifu.UI.WinForms.BunifuCheckBox showPassword;
     }
 }
 

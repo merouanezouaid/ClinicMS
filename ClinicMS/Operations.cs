@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data.SqlClient;
 using System.Data;
+using System.Windows.Forms;
 
 namespace ClinicMS
 {
@@ -13,7 +14,7 @@ namespace ClinicMS
        
         SqlConnection cn = new SqlConnection("Data Source=DESKTOP-63TK96G\\SQLEXPRESS;Initial Catalog=DB_Clinic;Integrated Security=True");
         SqlCommand cmd = new SqlCommand();
-       
+
         public DataTable DisplayData()
         {
             cn.Open();
@@ -234,10 +235,12 @@ namespace ClinicMS
                 cmd.Parameters.AddWithValue("Dateinsc", Date_inscription);
                 cmd.ExecuteNonQuery();
                 cn.Close();
+                DisplayData();
                 return true;
             }
             catch (Exception ex)
             {
+                Console.WriteLine(ex.Message);
                 cn.Close();
                 return false;
             }
@@ -299,7 +302,7 @@ namespace ClinicMS
             }
             catch (Exception ex)
             {
-                cn.Close();
+            cn.Close();
                 return false;
             }
 
@@ -346,10 +349,12 @@ namespace ClinicMS
                 cmd.Parameters.AddWithValue("id", id);
                 cmd.ExecuteNonQuery();
                 cn.Close();
+                DisplayData();
                 return true;
             }
             catch (Exception ex)
             {
+                Console.WriteLine(ex.Message);
                 cn.Close();
                 return false;
             }
@@ -394,11 +399,14 @@ namespace ClinicMS
                 cmd.Parameters.AddWithValue("paiment", dPaiment);
                 cmd.Parameters.AddWithValue("idMember", id_member);
                 cmd.ExecuteNonQuery();
+
                 cn.Close();
+                DisplayData();
                 return true;
             }
             catch (Exception ex)
             {
+                Console.WriteLine(ex.Message);
                 cn.Close();
                 return false;
             }
@@ -448,11 +456,14 @@ namespace ClinicMS
                 cmd.Parameters.AddWithValue("paiment", dPaiment);
                 cmd.Parameters.AddWithValue("idMember", id_member);
                 cmd.ExecuteNonQuery();
+
                 cn.Close();
+                DisplayData();
                 return true;
             }
             catch (Exception ex)
             {
+                Console.WriteLine(ex.Message);
                 cn.Close();
                 return false;
             }
@@ -477,11 +488,11 @@ namespace ClinicMS
             {
                 cn.Close();
                 return false;
-            }
+        }
 
         }*/
 
     }
-       
+
 }
 

@@ -38,13 +38,13 @@
             this.bunifuLabel2 = new Bunifu.UI.WinForms.BunifuLabel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.bunifuShadowPanel1 = new Bunifu.UI.WinForm.BunifuShadowPanel.BunifuShadowPanel();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.typeant = new System.Windows.Forms.ComboBox();
             this.bunifuLabel4 = new Bunifu.UI.WinForms.BunifuLabel();
             this.bunifuLabel3 = new Bunifu.UI.WinForms.BunifuLabel();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.com = new System.Windows.Forms.TextBox();
             this.infoslabel = new Bunifu.UI.WinForms.BunifuLabel();
-            this.idtextbox = new System.Windows.Forms.TextBox();
-            this.Ajouterlantecedentbtn = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
+            this.anttxtbox = new System.Windows.Forms.TextBox();
+            this.bunifuButton1 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.bunifuShadowPanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.exitIcon)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -121,12 +121,12 @@
             // 
             this.bunifuShadowPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
             this.bunifuShadowPanel1.BorderColor = System.Drawing.Color.Gainsboro;
-            this.bunifuShadowPanel1.Controls.Add(this.comboBox1);
+            this.bunifuShadowPanel1.Controls.Add(this.typeant);
             this.bunifuShadowPanel1.Controls.Add(this.bunifuLabel4);
             this.bunifuShadowPanel1.Controls.Add(this.bunifuLabel3);
-            this.bunifuShadowPanel1.Controls.Add(this.textBox1);
+            this.bunifuShadowPanel1.Controls.Add(this.com);
             this.bunifuShadowPanel1.Controls.Add(this.infoslabel);
-            this.bunifuShadowPanel1.Controls.Add(this.idtextbox);
+            this.bunifuShadowPanel1.Controls.Add(this.anttxtbox);
             this.bunifuShadowPanel1.Location = new System.Drawing.Point(17, 84);
             this.bunifuShadowPanel1.Name = "bunifuShadowPanel1";
             this.bunifuShadowPanel1.PanelColor = System.Drawing.Color.Empty;
@@ -135,13 +135,17 @@
             this.bunifuShadowPanel1.Size = new System.Drawing.Size(316, 162);
             this.bunifuShadowPanel1.TabIndex = 5;
             // 
-            // comboBox1
+            // typeant
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(23, 34);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(267, 21);
-            this.comboBox1.TabIndex = 42;
+            this.typeant.FormattingEnabled = true;
+            this.typeant.Items.AddRange(new object[] {
+            "Familial",
+            "Medical",
+            "Chirurgical"});
+            this.typeant.Location = new System.Drawing.Point(23, 34);
+            this.typeant.Name = "typeant";
+            this.typeant.Size = new System.Drawing.Size(267, 21);
+            this.typeant.TabIndex = 42;
             // 
             // bunifuLabel4
             // 
@@ -173,12 +177,12 @@
             this.bunifuLabel3.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
             this.bunifuLabel3.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
             // 
-            // textBox1
+            // com
             // 
-            this.textBox1.Location = new System.Drawing.Point(23, 126);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(267, 20);
-            this.textBox1.TabIndex = 39;
+            this.com.Location = new System.Drawing.Point(23, 126);
+            this.com.Name = "com";
+            this.com.Size = new System.Drawing.Size(267, 20);
+            this.com.TabIndex = 39;
             // 
             // infoslabel
             // 
@@ -195,52 +199,52 @@
             this.infoslabel.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
             this.infoslabel.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
             // 
-            // idtextbox
+            // anttxtbox
             // 
-            this.idtextbox.Location = new System.Drawing.Point(23, 80);
-            this.idtextbox.Name = "idtextbox";
-            this.idtextbox.Size = new System.Drawing.Size(267, 20);
-            this.idtextbox.TabIndex = 37;
+            this.anttxtbox.Location = new System.Drawing.Point(23, 80);
+            this.anttxtbox.Name = "anttxtbox";
+            this.anttxtbox.Size = new System.Drawing.Size(267, 20);
+            this.anttxtbox.TabIndex = 37;
             // 
-            // Ajouterlantecedentbtn
+            // bunifuButton1
             // 
-            this.Ajouterlantecedentbtn.AllowToggling = false;
-            this.Ajouterlantecedentbtn.AnimationSpeed = 200;
-            this.Ajouterlantecedentbtn.AutoGenerateColors = false;
-            this.Ajouterlantecedentbtn.BackColor = System.Drawing.Color.Transparent;
-            this.Ajouterlantecedentbtn.BackColor1 = System.Drawing.Color.Magenta;
-            this.Ajouterlantecedentbtn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Ajouterlantecedentbtn.BackgroundImage")));
-            this.Ajouterlantecedentbtn.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
-            this.Ajouterlantecedentbtn.ButtonText = "Ajouter l\'antecedent";
-            this.Ajouterlantecedentbtn.ButtonTextMarginLeft = 0;
-            this.Ajouterlantecedentbtn.ColorContrastOnClick = 45;
-            this.Ajouterlantecedentbtn.ColorContrastOnHover = 45;
-            this.Ajouterlantecedentbtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuButton1.AllowToggling = false;
+            this.bunifuButton1.AnimationSpeed = 200;
+            this.bunifuButton1.AutoGenerateColors = false;
+            this.bunifuButton1.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuButton1.BackColor1 = System.Drawing.Color.DodgerBlue;
+            this.bunifuButton1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuButton1.BackgroundImage")));
+            this.bunifuButton1.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            this.bunifuButton1.ButtonText = "Ajouter l\'antecedent";
+            this.bunifuButton1.ButtonTextMarginLeft = 0;
+            this.bunifuButton1.ColorContrastOnClick = 45;
+            this.bunifuButton1.ColorContrastOnHover = 45;
+            this.bunifuButton1.Cursor = System.Windows.Forms.Cursors.Hand;
             borderEdges1.BottomLeft = true;
             borderEdges1.BottomRight = true;
             borderEdges1.TopLeft = true;
             borderEdges1.TopRight = true;
-            this.Ajouterlantecedentbtn.CustomizableEdges = borderEdges1;
-            this.Ajouterlantecedentbtn.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.Ajouterlantecedentbtn.DisabledBorderColor = System.Drawing.Color.Empty;
-            this.Ajouterlantecedentbtn.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.Ajouterlantecedentbtn.DisabledForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
-            this.Ajouterlantecedentbtn.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed;
-            this.Ajouterlantecedentbtn.Font = new System.Drawing.Font("Verdana", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Ajouterlantecedentbtn.ForeColor = System.Drawing.Color.White;
-            this.Ajouterlantecedentbtn.IconLeftCursor = System.Windows.Forms.Cursors.Hand;
-            this.Ajouterlantecedentbtn.IconMarginLeft = 11;
-            this.Ajouterlantecedentbtn.IconPadding = 10;
-            this.Ajouterlantecedentbtn.IconRightCursor = System.Windows.Forms.Cursors.Hand;
-            this.Ajouterlantecedentbtn.IdleBorderColor = System.Drawing.Color.DodgerBlue;
-            this.Ajouterlantecedentbtn.IdleBorderRadius = 3;
-            this.Ajouterlantecedentbtn.IdleBorderThickness = 1;
-            this.Ajouterlantecedentbtn.IdleFillColor = System.Drawing.Color.Magenta;
-            this.Ajouterlantecedentbtn.IdleIconLeftImage = null;
-            this.Ajouterlantecedentbtn.IdleIconRightImage = null;
-            this.Ajouterlantecedentbtn.IndicateFocus = false;
-            this.Ajouterlantecedentbtn.Location = new System.Drawing.Point(48, 260);
-            this.Ajouterlantecedentbtn.Name = "Ajouterlantecedentbtn";
+            this.bunifuButton1.CustomizableEdges = borderEdges1;
+            this.bunifuButton1.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.bunifuButton1.DisabledBorderColor = System.Drawing.Color.Empty;
+            this.bunifuButton1.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.bunifuButton1.DisabledForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
+            this.bunifuButton1.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed;
+            this.bunifuButton1.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F);
+            this.bunifuButton1.ForeColor = System.Drawing.Color.White;
+            this.bunifuButton1.IconLeftCursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuButton1.IconMarginLeft = 11;
+            this.bunifuButton1.IconPadding = 10;
+            this.bunifuButton1.IconRightCursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuButton1.IdleBorderColor = System.Drawing.Color.DodgerBlue;
+            this.bunifuButton1.IdleBorderRadius = 3;
+            this.bunifuButton1.IdleBorderThickness = 1;
+            this.bunifuButton1.IdleFillColor = System.Drawing.Color.DodgerBlue;
+            this.bunifuButton1.IdleIconLeftImage = null;
+            this.bunifuButton1.IdleIconRightImage = null;
+            this.bunifuButton1.IndicateFocus = false;
+            this.bunifuButton1.Location = new System.Drawing.Point(68, 252);
+            this.bunifuButton1.Name = "bunifuButton1";
             stateProperties1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
             stateProperties1.BorderRadius = 3;
             stateProperties1.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
@@ -249,7 +253,7 @@
             stateProperties1.ForeColor = System.Drawing.Color.White;
             stateProperties1.IconLeftImage = null;
             stateProperties1.IconRightImage = null;
-            this.Ajouterlantecedentbtn.onHoverState = stateProperties1;
+            this.bunifuButton1.onHoverState = stateProperties1;
             stateProperties2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
             stateProperties2.BorderRadius = 3;
             stateProperties2.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
@@ -258,21 +262,22 @@
             stateProperties2.ForeColor = System.Drawing.Color.White;
             stateProperties2.IconLeftImage = null;
             stateProperties2.IconRightImage = null;
-            this.Ajouterlantecedentbtn.OnPressedState = stateProperties2;
-            this.Ajouterlantecedentbtn.Size = new System.Drawing.Size(251, 40);
-            this.Ajouterlantecedentbtn.TabIndex = 4;
-            this.Ajouterlantecedentbtn.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.Ajouterlantecedentbtn.TextMarginLeft = 0;
-            this.Ajouterlantecedentbtn.UseDefaultRadiusAndThickness = true;
+            this.bunifuButton1.OnPressedState = stateProperties2;
+            this.bunifuButton1.Size = new System.Drawing.Size(212, 45);
+            this.bunifuButton1.TabIndex = 7;
+            this.bunifuButton1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.bunifuButton1.TextMarginLeft = 0;
+            this.bunifuButton1.UseDefaultRadiusAndThickness = true;
+            this.bunifuButton1.Click += new System.EventHandler(this.bunifuButton1_Click);
             // 
             // addantecedent
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Controls.Add(this.bunifuButton1);
             this.Controls.Add(this.bunifuShadowPanel2);
             this.Controls.Add(this.bunifuShadowPanel1);
-            this.Controls.Add(this.Ajouterlantecedentbtn);
             this.Name = "addantecedent";
             this.Size = new System.Drawing.Size(332, 308);
             this.bunifuShadowPanel2.ResumeLayout(false);
@@ -293,12 +298,12 @@
         private Bunifu.UI.WinForms.BunifuLabel bunifuLabel2;
         private System.Windows.Forms.PictureBox pictureBox1;
         private Bunifu.UI.WinForm.BunifuShadowPanel.BunifuShadowPanel bunifuShadowPanel1;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox typeant;
         private Bunifu.UI.WinForms.BunifuLabel bunifuLabel4;
         private Bunifu.UI.WinForms.BunifuLabel bunifuLabel3;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox com;
         private Bunifu.UI.WinForms.BunifuLabel infoslabel;
-        private System.Windows.Forms.TextBox idtextbox;
-        private Bunifu.UI.WinForms.BunifuButton.BunifuButton Ajouterlantecedentbtn;
+        private System.Windows.Forms.TextBox anttxtbox;
+        private Bunifu.UI.WinForms.BunifuButton.BunifuButton bunifuButton1;
     }
 }

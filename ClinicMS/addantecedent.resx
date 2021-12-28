@@ -698,15 +698,15 @@
   <data name="infoslabel.BaseStylesheet" xml:space="preserve">
     <value>#bunifu-label { padding: 1.2px; font-family: 'Segoe UI Symbol'; font-size: 9pt; width: 100%; height: 100%; font-style: normal; font-weight: bold; text-decoration: none; color: White; text-align: left; }</value>
   </data>
-  <data name="Ajouterlantecedentbtn.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="bunifuButton1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAAPsAAAAoCAYAAAA42IwnAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAECSURBVHhe7dQtTkNRFIXROwYGQOsISflRaASaUdEXgimG
-        SYDGMgSGUINEMYF7yEuuadIJ9O21k+WO/U4zs6CtdrW+nvrH+WsVsBw32/459z1Sb+32qX+9PVRVA5bk
-        /a5qM/X9SL21+QMcOwRO39z3SF3ssGRihxBihxBihxBihxBihxBihxBihxBihxBihxBihxBihxBihxBi
-        hxBihxBihxBihxBihxBihxBihxBihxBihxBihxBihxBihxBihxBihxBihxBihxBihxBihxBihxBihxAH
-        sW+mvv9eHz8ETtfPWdXFS/8bqbe22tX95XP/nT8AsBxz6FdTfxypm9ny19o/U+rAaKPwwIQAAAAASUVO
-        RK5CYII=
+        iVBORw0KGgoAAAANSUhEUgAAANQAAAAtCAYAAADWQ0XJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAErSURBVHhe7dOxTQNRFETR38h6KYUKaG0XUQYxKaW4ASIa
+        +IstTbhCtjThGekkTy+9w8zKW7fjZd3n52U/DuBJ7/Pr3lByGuOyze/TR+AhyzavyekW1MkD8JzkJCho
+        SE6CgobkJChoSE6CgobkJChoSE6CgobkJChoSE6CgobkJChoSE6CgobkJChoSE6CgobkJChoSE6Cgobk
+        JChoSE6CgobkJChoSE6CgobkJChoSE6CgobkJChoSE6CgobkJChoSE6CgobkJChoSE6CgobkJChoSE6C
+        gobkJChoSE6CgobkJChoSE6CgobkJChoSE6CgobkJChoSE6CgobkJChoSE6CgobkNMayzevZA/CYZZ+/
+        yWmMdTteb4efs0fgf/eYlo/5lpzMrLMx/gCxWD//Blm1CAAAAABJRU5ErkJggg==
 </value>
   </data>
 </root>
