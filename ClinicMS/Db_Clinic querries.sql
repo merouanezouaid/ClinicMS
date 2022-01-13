@@ -141,12 +141,24 @@ end
 -- trigger supprimer Docteur (Updated)
 
 
-   create Trigger [dbo].[TriggerDo]
-   On [dbo].[Docteur]
+   CREATE Trigger TriggerDo
+   On Docteur
    instead of delete
    as begin
-   if exists (select * from deleted where D_id in(select D_id from Docteur))
-   delete from RDV where patientID IN (Select ID FROM Patient WHERE docteurID IN(SELECT D_id from deleted))
-   delete from Patient where docteurID IN (SELECT D_id from deleted)
+   delete from Patient where docteurID =(SELECT D_id from deleted)
+   delete from Docteur where D_id = (select D_id from deleted)
    end
+   
+ -- TRIGGER Supprimer Patient (Updated)
+ 
+	CREATE TRIGGER TriggerPa
+	   ON  Patient
+	   instead of DELETE
+	AS 
+	BEGIN
+	DELETE FROM Visite where patientID = (Select ID from deleted)
+		DELETE FROM Laboratoire WHERE pid = (Select ID from deleted)
+		DELETE FROM RDV WHERE patientID=(Select ID from deleted)
+		DELETE FROM Patient where ID = (Select ID from deleted)
+	END
 
