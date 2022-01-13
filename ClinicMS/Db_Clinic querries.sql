@@ -138,14 +138,15 @@ end
 	  )
 	  end 
 
--- trigger supprimer Docteur
+-- trigger supprimer Docteur (Updated)
 
 
-   Create Trigger TriggerDo
-   On Docteur
+   create Trigger [dbo].[TriggerDo]
+   On [dbo].[Docteur]
    instead of delete
    as begin
    if exists (select * from deleted where D_id in(select D_id from Docteur))
+   delete from RDV where patientID IN (Select ID FROM Patient WHERE docteurID IN(SELECT D_id from deleted))
    delete from Patient where docteurID IN (SELECT D_id from deleted)
    end
 
